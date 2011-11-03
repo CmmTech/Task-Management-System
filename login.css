@@ -59,3 +59,14 @@
 			{
 				color:black;
 			}
+
+		#err_msg
+			{
+				background-color:#FFB9B9;
+				color:#c00;
+				border:2px solid #FF0000;
+				padding:5px;
+				text-indent: 30px;
+				font-weight:bold;
+				font-size:88.5%;
+			}
