@@ -4,7 +4,7 @@
 		#wrapper
 			{
 				position:relative;
-				top:150px;
+				top:110px;
 				width:396px;height:296px;
 				margin:0 auto;
 				border:2px solid black;
@@ -35,7 +35,7 @@
 			}
 		table
 			{
-				margin:50px 10px 10px 35px;
+				margin:50px 10px 10px 40px;
 				text-align:center;
 			}
 		table td
@@ -44,7 +44,8 @@
 			}
 		.btn
 			{
-				background-color:#CCCCCC;color:#004364;
+				background: url(images/gravatar-vertical-sprite.png) repeat-x 0 -150px;
+				color:#004364;
 				font-weight:bold;
 				border:2px solid #004364;
 				border-radius:8px;
@@ -60,13 +61,30 @@
 				color:black;
 			}
 
-		#err_msg
+		.err_span
 			{
-				background-color:#FFB9B9;
+				
+				
 				color:#c00;
-				border:2px solid #FF0000;
+				
 				padding:5px;
 				text-indent: 30px;
 				font-weight:bold;
 				font-size:88.5%;
+			}
+		
+		.err_border
+			{
+				background-color:#FFB9B9;
+				border:2px solid #FF0000;
+			}
+
+		.bor{background-color:#FFB9B9;border:2px solid #FF0000;}
+		.required
+			{
+				border:2px solid red;
+			}
+		input
+			{
+				background: url(images/gravatar-vertical-sprite.png) repeat-x 0 -150px;
 			}
