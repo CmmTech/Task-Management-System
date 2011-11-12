@@ -44,7 +44,7 @@
 			}
 		.login_wrapper form table input[type="reset"] , .login_wrapper form table input[type="submit"]
 			{
-				background:url(/images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
+				background:url(../images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
 				color:#004364;
 				font-weight:bold;
 				border:2px solid #004364;
@@ -62,7 +62,7 @@
 			}
 		.login_wrapper form table input[type="text"] , .login_wrapper form table input[type="password"]
 					{
-						background: url(/images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
+						background: url(../images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
 						border:2px solid #004364;						
 						padding:3px;
 						cursor:text;

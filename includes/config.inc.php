@@ -27,7 +27,7 @@ define("_ADMINISTRATION", "http://jobs.cmm.local/back_office");
  * [CONSTANT VAR] The root folder of the application in the server
  * @global string
  */
-define("_ROOT_PATH","/jobapplication/");
+define("_ROOT_PATH", $_SERVER['DOCUMENT_ROOT'].'tms');
 
 /**
  * [CONSTANT VAR] Defines whether the running server is a production server or not
@@ -70,7 +70,7 @@ define("_WINDOW_TITLE", "Task Management System");
  * [CONSTANT VAR] Database server name/ip
  * @global string
  */
-define("_DB_HOST", "cmm.local");
+define("_DB_HOST", "localhost");
 
 /**
  * [CONSTANT VAR] Database name
@@ -82,13 +82,13 @@ define("_DB_NAME", "training");
  * [CONSTANT VAR] DB server username
  * @global string
  */
-define("_DB_USER", "training");
+define("_DB_USER", "root");
 
 /**
  * [CONSTANT VAR] DB server password
  * @global string
  */
-define("_DB_PASSWORD", "train@CMM");
+define("_DB_PASSWORD", "");
 
 
 #################################################################################
