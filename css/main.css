@@ -1,0 +1,89 @@
+		BODY{
+				background-color:#004364;
+			}
+		.login_wrapper
+			{
+				position:relative;
+				top:110px;
+				width:396px;height:296px;
+				margin:0 auto;
+				border:2px solid black;
+				background-color:#006699;
+				color:black;
+				font-size:18px;
+				border-radius:15px;
+				-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+				-webkit-border-radius:15px; /* Safari and Chrome */
+				s-o-border-radius:15px; /* Opera */
+			}
+		.login_wrapper div
+			{
+				background-color:#CCCCCC;		
+				width:396px;height:68px;
+				border-bottom:10px solid black;
+				border-radius:15px 15px 0px 0px;
+				-moz-border-radius:12px 12px 0px 0px; /* Firefox 3.6 and earlier */
+				-webkit-border-radius:12px 12px 0px 0px; /* Safari and Chrome */
+				s-o-border-radius:12px 12px 0px 0px; /* Opera */
+			}
+
+		.login_wrapper div h2
+			{
+				display:inline;	
+				position:relative;
+				top:-15px;
+			}
+		.login_wrapper form table
+			{
+				margin:50px 10px 10px 35px;
+				text-align:center;
+			}
+		.login_wrapper form table td
+			{
+				color:white;
+			}
+		.login_wrapper form table input[type="reset"] , .login_wrapper form table input[type="submit"]
+			{
+				background:url(/images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
+				color:#004364;
+				font-weight:bold;
+				border:2px solid #004364;
+				border-radius:8px;
+				-moz-border-radius:8px; /* Firefox 3.6 and earlier#004364 */
+				-webkit-border-radius:8px; /* Safari and Chrome */
+				s-o-border-radius:8px; /* Opera */
+				padding:2px 8px;
+				cursor:pointer;
+			}
+
+		.login_wrapper form table input[type="reset"]:hover , .login_wrapper form table input[type="submit"]:hover
+			{
+				color:black;
+			}
+		.login_wrapper form table input[type="text"] , .login_wrapper form table input[type="password"]
+					{
+						background: url(/images/login/gravatar-vertical-sprite.png) repeat-x 0 -150px;
+						border:2px solid #004364;						
+						padding:3px;
+						cursor:text;
+					}
+
+		.err_span
+			{
+				
+				
+				color:#c00;
+				
+				padding:5px;
+				text-indent: 30px;
+				font-weight:bold;
+				font-size:88.5%;
+			}
+		
+		.err_border
+			{
+				background-color:#FFB9B9;
+				border:2px solid #FF0000;
+			}
+
+		
